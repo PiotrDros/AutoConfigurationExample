@@ -1,0 +1,13 @@
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+group = 'com.library'
+version = '0.0.1-SNAPSHOT'
+
+
+dependencies {
+	implementation('org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE')
+	testImplementation('org.springframework.boot:spring-boot-starter-test:2.1.0.RELEASE')
+}
